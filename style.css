@@ -26,7 +26,7 @@ body {
     margin-bottom: 8px;
 }
 
-.header p:hover {
+.hover:hover {
     color: #fff;
 }
 
@@ -106,11 +106,11 @@ body {
     font-size: 20px;
 }
 
-.button-wrapper:hover {
+.get-going:hover {
     text-decoration: none;
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03); 
 }
 
 .button-shadow {
@@ -184,10 +184,11 @@ body {
 .one:hover,
 .two:hover,
 .three:hover {
-    text-decoration: none;
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
+    background-color: #954DFF;
+    color: #fff;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .search-box-wrapper {
